@@ -7,8 +7,8 @@ import './App.scss';
 
 const App = () =>(
   <>
-    <Fon />
-    {/* <Element /> */}
+    {/* <Fon /> */}
+    <Element />
   </>
 );
 
