@@ -1,0 +1,71 @@
+.L_panel {
+  grid-row: span 19;
+  grid-column: span 1;
+  margin-right: -5px;
+  background-color: #1d1c1c;
+  display: grid;
+  grid-template-rows: repeat(15, 1fr);
+  font-weight: bold;
+
+  &__pfoto {
+    grid-row: span 5;
+    margin: 2px 1px -3px 1px;
+    // background-color: blueviolet;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../../Управление/User_pfoto/User_pfoto);
+    border: 1.5px solid #db924e;
+
+    .galca {
+      z-index: 1;
+      margin: 8%;
+      height: 20px;
+    }
+  }
+
+  &__nav {
+    grid-row: span 8;
+    // background-color: rgb(173, 230, 215);
+    display: grid;
+    grid-template-rows: 2fr 3fr 3fr;
+
+    &__masage {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 25%;
+      color: #db924e;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.349);
+    }
+
+    &__profel {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30%;
+      padding-left: 15%;
+      color: white;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.349);    
+    }
+    
+    &__help {
+      display: flex;
+      flex-direction: column;
+      margin-top: 25%;
+      padding-left: 15%;
+      color: white;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.349);
+    }
+  }
+
+  &__knop {
+    grid-row: inherit;
+    display: flex;
+    background-color: #db924e;
+
+    &__text {
+      color: white;
+      margin: auto;
+    }
+  }
+}
+

@@ -1,0 +1,9 @@
+.element {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(19, 1fr);
+  // background-color: #fff;
+  grid-column: 2 / 10;
+  grid-row: span 8;
+  margin-top: 3%;
+}
