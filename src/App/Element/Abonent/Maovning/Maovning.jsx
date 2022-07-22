@@ -11,7 +11,7 @@ const Maovning = ({
     time = '00:00'
   }) => (
   <li className='list'>
-    <div className='list__marc '>{mark}</div>
+    <div id='mark' className='list__marc '>{mark}</div>
     <div className='list__icon '>{icon}</div>
     <div className='list__name '>{name}</div>
     <div className='list__marc2 '>{mark2}</div>

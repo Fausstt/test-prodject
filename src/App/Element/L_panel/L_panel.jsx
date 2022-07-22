@@ -20,19 +20,19 @@ const Pfoto = () => (
 
 const Nav = () => (
   <div className='L_panel__nav'>
-    <div className='L_panel__nav__masage'>
+    <a className='L_panel__nav__masage'>
       <div>Сооищения</div>
       <div>3</div>
-    </div>
+    </a>
     <div className='L_panel__nav__profel'>
-      <div>Профиль</div>
-      <br />
-      <div>Настройки</div>
+      <a className='profel'>Профиль</a>
+      
+      <a className='profel'>Настройки</a>
     </div>
     <div className='L_panel__nav__help'>
-      <div>Вопросы</div>
-      <br />
-      <div>Написать модератору</div>
+      <a className='profel'>Вопросы</a>
+
+      <a className='profel'>Написать модератору</a>
     </div>
 
   </div>

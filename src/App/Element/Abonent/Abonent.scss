@@ -24,6 +24,11 @@
       font-weight: bold;
       margin: auto 0;
       margin-left: 20px;
+      cursor: pointer;
+
+      &:hover {
+        color: #db924e;
+      }
     }
 
     .number12 {
@@ -31,12 +36,22 @@
       font-weight: bold;
       margin: auto 0;
       margin-left: 14px;
+      cursor: pointer;
+
+      &:hover {
+        color: #db924e;
+      }
     }
 
     .str{
       font-size: 55px;
       margin: auto 0;
       margin-left: 28px;
+      cursor: pointer;
+
+      &:hover {
+        color: #db924e;
+      }
     }
   }
 }

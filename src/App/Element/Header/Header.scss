@@ -3,7 +3,6 @@
   grid-column: 2 / 6;
   margin-left: 5px;
   margin-bottom: -1px;
-  // background-color: rgb(223, 220, 79);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
@@ -16,7 +15,21 @@
     // border: 1px solid red;
 
     &__delet {
+      cursor: pointer;
       color: #ca4747;
+
+      &:hover {
+        color: #ca4747b4;
+      }
+    }
+
+    &__dArchive{
+      cursor: pointer;
+
+      &:hover {
+      color: #9c9999;
+      border-bottom: 1px solid #9c9999;
+      }
     }
   }
 
@@ -28,7 +41,21 @@
     // border: 1px solid red;
 
     &__arf {
+      cursor: pointer;
       color: #db8c43;
+
+      &:hover {
+        color: #db924e98;
+      }
+    }
+
+    &__Archive {
+      cursor: pointer;
+
+      &:hover {
+        color: #9c9999;
+        border-bottom: 1px solid #9c9999;
+      }
     }
   }
 
@@ -43,8 +70,14 @@
       grid-column: 3 / 6;
       padding: 3%;
       text-align: right;
+      cursor: pointer;
       color: #c9874b;
       border: 1px solid #c9874b;
+
+      &:hover {
+        background-color: #db924e98;
+        color: white;
+      }
     }
   }
 }

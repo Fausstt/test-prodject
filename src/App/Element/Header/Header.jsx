@@ -12,14 +12,14 @@ const Header = () => (
 const Redachin = () => (
   <div className='Header__redachin'>
     <div className='Header__redachin__delet'>Удалить</div>
-    <div>Добавить в архив</div>
+    <div className='Header__redachin__dArchive'>Добавить в архив</div>
   </div>
 );
 
 const Nav = () => (
   <div className='Header__nav'>
     <div className='Header__nav__arf'>Непрочитаные</div>
-    <div>Архив</div>
+    <div className='Header__nav__Archive'>Архив</div>
   </div>
 );
 
